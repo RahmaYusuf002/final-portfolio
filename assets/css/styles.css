@@ -95,7 +95,7 @@ a.nav-item:hover {
 }
 
 .raw:hover{
-	color: rgb(192, 27, 192);
+	color: rgb(7, 16, 97);
 }
 .intro {
 	text-align: justify;
@@ -123,5 +123,101 @@ a.nav-item:hover {
 	.nav-toggle span:hover {
 		background-color: #fff;
 	}
+	/* contact section */
+.contact-section {
+    text-align: center;
+}
 
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* service section */
+.service-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card {
+    width: 30%;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 20px;
+    border: 20px;
+    /* Add a border with white color */
+    ;
+    box-sizing: border-box;
+    /* include the border in the card's dimensions */
+}
+
+.service-card h3 {
+    color: white;
+}
+
+.service-card p {
+    color: rgb(9, 214, 9);
+    margin-top: 10px;
+}
+
+
+
+	/* contact */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 13, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 20%;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+.form-group input [type="submit"] {
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+
+}
+.form-group input [type="submit"] :hover{
+    background-color: blueviolet;
+}
+
+.form-group textarea{
+    height: 120px;
+}
+.footer p {
+    font-size: 1.6rem;
+    text-align: center;
+    color: chocolate;
 }
