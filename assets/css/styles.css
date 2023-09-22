@@ -18,11 +18,11 @@ section{
 }
 
 .section-1 {
-	background: rgb(221, 152, 25);}
+	background: rgb(110, 88, 47);}
  
 
 .section-2 {
-	background-color: #441e3c;
+	background-color: #3d2e3a;
     
 }
 
@@ -35,7 +35,7 @@ section{
 
 
 .section-4 {
-	background-color: #e99700;
+	background-color: #16363b;
 	padding: 0.2rem;
     
 }
@@ -65,16 +65,16 @@ nav a {
 /* Add hover effect */
 /* Add this CSS code to your existing style.css file */
 nav ul li a {
-    color: orange;
+    color: rgb(56, 59, 49);
     text-decoration: none;
-    transition: color yellow;
+    transition: color rgb(66, 66, 51);
 }
 nav ul li a:hover {
-    color: white;
+    color: rgb(32, 53, 37);
 }
  /* Hero section styles */
  .hero {
-    background-image: linear-gradient(orange);
+    background-image: linear-gradient(rgb(38, 73, 38));
     text-align: center;
     padding: 100px;
     text-decoration: none;
@@ -85,6 +85,7 @@ nav ul li a:hover {
     text-align: center;
     max-width: 400px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 h1 {
@@ -98,10 +99,10 @@ p {
     text-align: justify;
     line-height: 1.5; /* Adjust the line height for better readability */
     color: #333;/*change the text color */
-    background-color: rgb(184, 133, 40);
+    background-color: rgb(37, 31, 20);
     /* Add a background color to the paragraph */
     padding: 10px;
-    border: 1px solid peru; /*Add a border around the paragraph*/
+    border: 1px solid rgb(114, 86, 58); /*Add a border around the paragraph*/
 
 }
 ul {
@@ -113,17 +114,17 @@ ul {
 li {
     display: inline-block;
     margin-right: 10px;
-
+    padding: 5px;
 }
 
 li a {
     text-decoration: none;
-    color: orange;
+    color: rgb(51, 36, 45);
     transition: background-color 0.3s;
 }
 
 li a:hover {
-    background-color: darkorange;
+    background-color: rgb(68, 54, 34);
     color: rgb(255, 255, 255);
 }
 
@@ -160,7 +161,7 @@ img {
 }
 
 .project-card h3 {
-    color: goldenrod;
+    color: rgb(68, 58, 31);
 }
 
 .project-card p {
@@ -181,12 +182,12 @@ img {
 /* contact */
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(65, 63, 47);
 }
 /* contact */
 /* styling get in touch */
 body {
-    color: rgb(81, 255, 0);
+    color: rgb(92, 63, 77);
     justify-content: center;
     align-items: center;
     
@@ -196,8 +197,13 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
-    background-color: rgb(240, 119, 6);
+    background-color: rgb(105, 95, 85);
     box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+   width: 50px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+   
 }
 
 h2 {
@@ -208,43 +214,74 @@ h2 {
 h1 {
     display: flex;
     justify-content: center;
-    color: orange;
+    color: rgb(8, 16, 31);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
 }
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    
+   
 }
 .form-group label {
-    display: block;
+    
     font-weight: bold;
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+   
+   
 }
 
 .form-group input,
 .form-group textarea {
-    width: 10%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000%;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
     resize: vertical;
 }
 
 .form-group input [type="submit"] {
-    background-color: aqua;
-    color: #fff;
+    background-color: rgba(126, 40, 9, 0.801);
+    color: #ffffff;
     cursor: pointer;
-
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+   
 }
 .form-group input [type="submit"] :hover{
-    background-color: rgb(226, 223, 43);
+    background-color: rgb(44, 44, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    cursor: pointer;
+   
 }
 
 .form-group textarea{
     height: 120px;
-    justify-content: center;
-    
     display: flex;
+    align-items: center;
+    
+    justify-content: right;
+   
+   
 }
 .footer p {
     font-size: 1.6rem;
